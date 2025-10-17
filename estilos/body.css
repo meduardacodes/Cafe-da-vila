@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --marrom_principal: #5B3A29;
+    --bege_claro:#D99A2D;
+    --acento_mostarda:#F6EFE6;
+    --texto_escuro:#2B2B2B;
+}
+body{
+    background-color:var(--acento_mostarda);
+}
+#hero{
+     width:90%;
+     height: 700px;
+     margin: auto;
+     margin-top: 2%;
+    background: white url(../imagens/bck.hero.jpg) center no-repeat scroll;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.571);
+
+    h1, h2{
+        color: var(--acento_mostarda);
+    
+    }
+    
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Playfair Display", serif;
+        font-size: 3em;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.748);
+         
+    }
+    h2{
+        font-family: "Playwrite DE SAS", cursive;
+        font-size: 1.5em;
+        text-align: center;
+        text-shadow: 0px 0px 3px black;
+    }
+   
+    
+  
+}
+#btn-hero{
+    display: flex;
+    margin: auto;
+    padding: 10px 50px ;
+    font-size: 1.3em;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.656);
+   
+}
+
+ #logo-hero{
+
+    margin-top: 150px;
+    margin-left: 30%;
+    font-size: 50px;
+    color: var(--bege_claro);
+ }
+
+ @media screen and (max-width: 480px){
+    
+    #logo-hero{
+        margin-top: 60px;
+        margin-left: 4%;
+        font-size: 45px;
+    }
+
+    #hero{
+        height: 500px;
+        h1{
+            text-align: center;
+            font-size: 2em;
+        }
+    }
+    
+ }
+
+ @media screen and (max-width:1024px){
+    
+ }
+
