@@ -89,3 +89,85 @@ body{
     }
  }
 
+
+ #about{
+    background-color: var(--acento_mostarda);
+    margin:20px;
+    height: 500px;
+    display: flex;
+ 
+
+    #nascer{
+        background-color: var(--marrom_principal);
+        width: 50%;
+        height: 400px;
+        border-radius: 15px;
+        margin-right: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.637);
+    }
+
+    #graos{
+        background: white url(../imagens/café2.jpg) center no-repeat scroll;
+        background-size: cover;
+        width: 50%;
+        height: 400px;
+        border-radius: 15px;
+        margin-left: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.637);
+        
+         p{
+            color: var(--acento_mostarda);
+            margin: 30px;
+            display: none;
+            text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.619);
+            font-size: 1.5em;
+            text-align: justify;
+            
+            
+        }
+        &:hover{
+          
+            p{
+                display: block;
+                
+            }
+             
+        }
+       
+    }
+
+    #nascer{
+         background: white url(../imagens/livro.jpg) center no-repeat scroll;
+        background-size: cover;
+        width: 50%;
+        height: 400px;
+        border-radius: 15px;
+        margin-left: 5px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.637);
+        
+         p{
+            color: var(--acento_mostarda);
+            margin: 30px;
+            display: none;
+            text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.619);
+            font-size: 1.5em;
+            text-align: justify;
+            
+            
+        }
+        &:hover{
+          
+            p{
+                display: block;
+                
+            }
+             
+        }
+    }
+
+ }
+     #abt{
+        margin-top: 100px;
+        text-align: center;
+        transition-duration: 1s;
+    }
