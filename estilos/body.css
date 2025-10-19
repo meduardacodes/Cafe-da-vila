@@ -270,11 +270,11 @@ body{
         background-color: #d59473;
         height: 100%;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-      .produto{
+        justify-content: center;
         
+      .produto{
+        display: inline-block;
         background-color: white;
         width: 200px;
         height: 300px;
@@ -306,14 +306,22 @@ body{
         #nascer{
             &:hover{
                 width: 90%;
+                p{
+                    font-size: 1.2em;
+                }
             }
         }
 
         #graos{
+            p{
+                font-size: 1.3em;
+            }
             &:hover{
                 width: 90%;
             }
         }
+
+
         
 
     }
@@ -353,4 +361,6 @@ body{
         }
         
     }
+
+
  }
