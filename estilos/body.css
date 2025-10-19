@@ -63,31 +63,7 @@ body{
     color: var(--bege_claro);
  }
 
- @media screen and (max-width: 480px){
-    
-    #logo-hero{
-        margin-top: 60px;
-        margin-left: 4%;
-        font-size: 45px;
-    }
 
-    #hero{
-        height: 500px;
-        h1{
-            text-align: center;
-            font-size: 2em;
-        }
-    }
-    
- }
-
- @media screen and (min-width:1024px){
-    #logo-hero{
-        font-size: 5em;
-        margin-top: 20%;
-       margin-left: 35%;
-    }
- }
 
 
  #about{
@@ -307,3 +283,74 @@ body{
         
       }
     }
+
+     @media screen and (max-width: 480px){
+    
+    #logo-hero{
+        margin-top: 60px;
+        margin-left: 4%;
+        font-size: 45px;
+    }
+
+    #hero{
+        height: 500px;
+        h1{
+            text-align: center;
+            font-size: 2em;
+        }
+    }
+   
+    #about{
+        display: flex;
+
+        #nascer{
+            &:hover{
+                width: 90%;
+            }
+        }
+
+        #graos{
+            &:hover{
+                width: 90%;
+            }
+        }
+        
+
+    }
+
+    #dif{
+        display: flex;
+        flex-direction: column;
+        #card1, #card2, #card3{
+            margin: auto;
+            margin-top: 20px;
+            width: 90%;
+        }
+    }
+    
+ }
+
+ @media screen and (min-width:1024px){
+    #logo-hero{
+        font-size: 5em;
+        margin-top: 20%;
+       margin-left: 35%;
+    }
+
+    #about{
+        height: 800px;
+
+        #graos{
+            height: 80%;
+            P{
+                font-size: 3em;
+            }
+        }
+        #nascer{
+            p{
+                font-size: 3em;
+            }
+        }
+        
+    }
+ }
